@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Medium - Replica</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <div id="navbar-area">
+        <div id="left-navbar">
+            <img id="logo" src="images/Medium-Logo-black.png" alt="Medium logo">
+        </div>
+        <div id="right-navbar">
+            <div id="search-nav">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="bookmark-nav">
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <div id="bell-nav">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div id="resume-nav">
+                <button type="button" id="resume-button">
+                    Resume membership
+                </button>
+            </div>
+            <div id="user-nav">
+                <button type="button" id="user-logo">F</button>
+            </div>
+        </div>
+    </div>
+    <!--CONTENT--> 
+    <div id="contents">
+        <!--LEFT-CONTENT-->
+        <div id="left-contents">
+            <div id="categories">
+                <span id="following">FOLLOWING</span>
+                <span id="recommended">RECOMMENDED FOR YOU</span>
+            </div>
+
+            <div id="feed">
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img" src="images/top1.png" alt="immagine profilo">
+                            <span class="what">Kolby Sisk</span>
+                            <span class="where">in</span>
+                            <span class="what">Udacity Eng & Data</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">React state management in 2022 - Return of the Redux</h2>
+                            <p class="p-prev">At the beginning of the year if you told me I'd be publishing a recommendation to use Redux I would have laughed in your face. Yet here we are.</p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list">
+                                    <li>Dec 3</li>
+                                    <li>4 min read</li>
+                                    <li>React</li>
+                                    <li>Popular on Medium</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev1.png" alt="immagine articolo">
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img-round" src="images/top2.png" alt="immagine profilo">
+                            <span class="what">Navoda Nilakshi</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting.</h2>
+                            <p class="p-prev">Easiest way to sanitize your express app.</p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list-bis">
+                                    <li>Dec 19</li>
+                                    <li>6 min read</li>
+                                    <li>Web Development</li>
+                                    <li>Based on your reading history</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev2.png" alt="immagine articolo">
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img-round" src="images/top3.png" alt="immagine profilo">
+                            <span class="what">Divyesh Bhalani</span>
+                            <span class="where">in</span>
+                            <span class="what">DhiWise</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">React 18 new features</h2>
+                            <p class="p-prev">React 17 was focused on improving the fundamentals but there are few important things that got added in React 18.</p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list">
+                                    <li>Nov 24</li>
+                                    <li>4 min read</li>
+                                    <li>Reactjs</li>
+                                    <li>Popular on Medium</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev3.png" alt="immagine articolo">
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img-round" src="images/top4.png" alt="immagine profilo">
+                            <span class="what">Vsevolod Ulyanovich</span>
+                            <span class="where">in</span>
+                            <span class="what">Fively Blog</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">15 Best Web App Ideas for a Startup in 2021</h2>
+                            <p class="p-prev">Each year, tech startups all over the world are trying to reach the top with their breathtaking and sometimes crazy ideas. What are the hottest topics now and what are still exotic to the market of technology?</p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list">
+                                    <li>Oct 29</li>
+                                    <li>6 min read</li>
+                                    <li>Web Development</li>
+                                    <li>Popular on Medium</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev4.png" alt="immagine articolo">
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img" src="images/top1.png" alt="immagine profilo">
+                            <span class="what">Kolby Sisk</span>
+                            <span class="where">in</span>
+                            <span class="what">Udacity Eng & Data</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">Understanding re-rendering and memoization in React</h2>
+                            <p class="p-prev">The following are quick tips to increase performance in your React application by understanding re-rendering and memoization. To better understand the following tips it’s important to know when React re-renders components.</p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list">
+                                    <li>Dec 6</li>
+                                    <li>4 min read</li>
+                                    <li>React</li>
+                                    <li>Popular on Medium</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev5.png" alt="immagine articolo">
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="article-box">
+                        <div class="box-top">
+                            <img class="rif-img" src="images/top5.png" alt="immagine profilo">
+                            <span class="what">Arun Kashyap</span>
+                            <span class="where">in</span>
+                            <span class="what">Nerd For Thech</span>
+                        </div>
+                        <div class="preview">
+                            <h2 class="h2-prev">Why Get Rid Of Promises To Fetch Data In React?</h2>
+                            <p class="p-prev">How You Can Make Your Code Well Structured !!
+
+                            </p>             
+                        </div>
+                        <div class="box-down">
+                            <div class="tags">
+                                <ul class="tag-list">
+                                    <li>Jul 5</li>
+                                    <li>5 min read</li>
+                                    <li>React</li>
+                                    <li>Selected for you</li>
+                                </ul>
+                            </div>    
+                            <div class="down-icons">
+                                <i class="fa-regular fa-plus"></i>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="preview-image">
+                        <img class="prev-img-set" src="images/prev6.png" alt="immagine articolo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--RIGHT-CONTENT-->
+        <div id="right-contents">
+            <div id="right-column">
+                <div id="connect">
+                    <div id="social-icons">
+                        <i class="fa-brands fa-medium"></i>
+                        <i class="fa-regular fa-plus"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div id="cta">
+                        <p class="social-cta">Discover Medium writers you already follow on Twitter.</p>
+                    </div>
+                    <div class="twitter-connect">
+                        <button type="button" class="twitter-btn">
+                            <i class="fa-brands fa-twitter" style="color: #37A1F2; font-size: 20px; padding: 5px 8px;"></i><!--lo style è una cosa oscena ma non riesco in nessun altro modo, non capisco perché-->
+                            Connect to Twitter</button>
+                    </div>
+                    <div class="later">
+                        <span class="social-cta">Maybe Later</span>
+                    </div>
+                </div>
+                <div id="recommended-topics">
+                    <h3 class="h3-text">Recommended topics</h3>
+                    <div id="topic-list">
+                        <span class="topic">Technology</span>
+                        <span class="topic">Money</span>
+                        <span class="topic">Business</span>
+                        <span class="topic">Productivity</span>
+                        <span class="topic">Psychology</span>
+                        <span class="topic">Mindfulness</span>
+                        <span class="topic">Art</span>
+                    </div>
+                </div>
+                <div id="who-follow">
+                    <h3 class="h3-text">Who to follow</h3>
+
+                    <div class="profilo">
+                        <div>
+                            <img class="img-prof" src="images/profile1.png" alt="immagine profilo">
+                        </div>                        
+                        <div class="profile-details">
+                            <P class="profile-details">Eve Arnold</P>
+                            <span class="profile-details">Building the Part-Time Creator Club</span>
+                        </div>
+                        <div>
+                            <button class="follow-button">Follow</button>
+                        </div>                        
+                    </div>
+                    <div class="profilo">
+                        <div>
+                            <img class="img-prof" src="images/profile2.png" alt="immagine profilo">
+                        </div>                        
+                        <div class="profile-details">
+                            <P class="profile-details">David Wineberg</P>
+                            <span class="profile-details">Author, The Straight Dope, or What I Learned from my first Computer Gaming</span>
+                        </div>
+                        <div>
+                            <button class="follow-button">Follow</button>
+                        </div>                        
+                    </div>
+                    <div class="profilo">
+                        <div>
+                            <img class="img-prof" src="images/profile3.png" alt="immagine profilo">
+                        </div>                        
+                        <div class="profile-details">
+                            <P class="profile-details">Bonsu Thompson</P>
+                            <span class="profile-details">Bonsu Thompson is a writer, producer, Brooklynite and 2019</span>
+                        </div>
+                        <div>
+                            <button class="follow-button">Follow</button>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div id="recently-saved">
+                    <h3 class="h3-text">Recently Saved</h3>
+                        <div class="saved-one">
+                            <div class="box-top">
+                                <img class="rif-img" src="images/top7.png" alt="immagine profilo">
+                                <span class="what">Eva Keiffenheim</span>
+                                <span class="where">in</span>
+                                <span class="what">Age of Awareness</span>
+                            </div>  
+                            <div class="preview">
+                                <h2 class="h2-prev-saved">The Feynman Tecnique Wll Make You Remember What You Read</h2>
+                            </div> 
+                            <div class="box-down-saved">
+                                <div class="tags">
+                                    <ul class="tag-list">
+                                        <li>Oct 2, 2020</li>
+                                        <li>6 min read</li>
+                                    </ul>
+                                </div>    
+                                <div class="down-icons">
+                                    <i class="fa-solid fa-star" style="font-size: 8pt; padding: 10px;"></i>
+                                </div>
+                            </div>                        
+                        </div>                        
+                        <div class="saved-two">
+                            <div class="box-top">
+                                <img class="rif-img-round" src="images/top8.png" alt="immagine profilo">
+                                <span class="what">chrissy teigen</span>
+                            </div>  
+                            <div class="preview">
+                                <h2 class="h2-prev-saved">Hi.</h2>
+                            </div> 
+                            <div class="box-down-saved">
+                                <div class="tags">
+                                    <ul class="tag-list">
+                                        <li>Oct 27, 2020</li>
+                                        <li>8 min read</li>
+                                    </ul>
+                                </div>    
+                            </div> 
+                        </div>
+                </div>
+                <div id="see-all">
+                    <span id="green">See all (3)</span>
+                </div>
+                <div id="footer-items">
+                    <span class="foot-it">Help</span>
+                    <span class="foot-it">Status</span>
+                    <span class="foot-it">Writers</span>
+                    <span class="foot-it">Blog</span>
+                    <span class="foot-it">Careers</span>
+                    <span class="foot-it">Privacy</span>
+                    <span class="foot-it">Terms</span>
+                    <span class="foot-it">About</span>
+                </div>
+            </div>    
+        </div>
+    </div>
+    
+</body>
+</html>
